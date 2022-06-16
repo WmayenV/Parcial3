@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <cstdlib>
 #include <iomanip>
-#include <windows.h>
+//#include <windows.h>
 #include <string>
 #include <stdio.h>
 #include <time.h>
@@ -1327,9 +1327,9 @@ void cinema::mostrarClientes(){
     if (baseDatos.is_open()){
         baseDatos.close();
         cout<<"\n\n\t\tArchivo cerrado";}
-}
+};
 //seguridad//
-int main(){
+/*int main(){
     system ("cls");
     string usuario, contrasena, config1, config2;
     fstream usuariosContrasenas;
@@ -1345,7 +1345,7 @@ int main(){
             if (usuario=="William" && contrasena =="101"){
                 fstream bienvenida;
                 string line, desicion;
-                bienvenida.open("welcome.dat");
+                bienvenida.open("welcome.txt");
                 if(bienvenida.is_open()){
                     cout << "\n";
                     while( getline(bienvenida, line)){
@@ -1364,4 +1364,5 @@ int main(){
             }
         }
     }
-}
+}*/
+
