@@ -1092,6 +1092,8 @@ void cinema::mostrarCines(){
         cout<<"\n\n\t\tArchivo cerrado";}
 }
 //fin menu cines//
+
+//inicio menu clientes//
 void cinema::menuClientes(){
     system("cls");
     int menu;
@@ -1341,6 +1343,8 @@ void cinema::mostrarClientes(){
         baseDatos.close();
         cout<<"\n\n\t\tArchivo cerrado";}
 };
+// fin menu clientes//
+
 //seguridad//
 /*int main(){
     system ("cls");
