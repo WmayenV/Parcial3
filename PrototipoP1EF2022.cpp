@@ -867,6 +867,7 @@ void cinema::menuCines(){
 }
 // fin menu asientos//
 
+//inicio menu cines//
 void cinema::registrarCines(){
     system("cls");
     cout << "\n\t\t\tEntrando al menu --REGISTRAR Cines--\n" << endl;
@@ -1090,6 +1091,7 @@ void cinema::mostrarCines(){
         baseDatos.close();
         cout<<"\n\n\t\tArchivo cerrado";}
 }
+//fin menu cines//
 void cinema::menuClientes(){
     system("cls");
     int menu;
