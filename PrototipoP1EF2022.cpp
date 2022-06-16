@@ -593,6 +593,8 @@ void cinema::mostrarSalas(){
         cout<<"\n\n\t\tArchivo cerrado";}
 }
 //fin menu salas //
+
+// inicio menu asientos//
 void cinema::menuAsientos(){
     system("cls");
     int menu;
@@ -863,6 +865,7 @@ void cinema::menuCines(){
         break;
     }
 }
+// fin menu asientos//
 
 void cinema::registrarCines(){
     system("cls");
