@@ -48,6 +48,8 @@ private:
     string desicion, numSerie, nombre, clasif, duracion, baseDatos, busquedaDatos, modBaseDatos, numSal, nivel, numAsientos, numeroAs, estado, idCines, direccion, estadoCines, idClientes, nomClientes, nomPelis ;
 };
 
+// inicio Menu General //
+
 void cinema::menuGeneral(){
     system ("cls");
     int menu;
@@ -82,6 +84,7 @@ void cinema::menuGeneral(){
         }
     }
 }
+//fin menu General //
 void cinema::menuPeliculas(){
     system("cls");
     int menu;
