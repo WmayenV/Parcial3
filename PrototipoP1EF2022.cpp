@@ -85,6 +85,8 @@ void cinema::menuGeneral(){
     }
 }
 //fin menu General //
+
+//inicio menu pelicualas//
 void cinema::menuPeliculas(){
     system("cls");
     int menu;
@@ -338,7 +340,7 @@ void cinema::mostrarPeliculas(){
         baseDatos.close();
         cout<<"\n\n\t\tArchivo cerrado";}
 }
-
+//fin menu salas //
 void cinema::menuSalas(){
     system("cls");
     int menu;
