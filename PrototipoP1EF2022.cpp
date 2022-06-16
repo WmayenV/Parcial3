@@ -340,7 +340,9 @@ void cinema::mostrarPeliculas(){
         baseDatos.close();
         cout<<"\n\n\t\tArchivo cerrado";}
 }
-//fin menu salas //
+//fin menu peliculas //
+
+//inicio menu salas
 void cinema::menuSalas(){
     system("cls");
     int menu;
@@ -590,6 +592,7 @@ void cinema::mostrarSalas(){
         baseDatos.close();
         cout<<"\n\n\t\tArchivo cerrado";}
 }
+//fin menu salas //
 void cinema::menuAsientos(){
     system("cls");
     int menu;
